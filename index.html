@@ -1,0 +1,1415 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#ffb4a5","surface-dim":"#ccdce8","surface-container-low":"#e8f5ff","on-error":"#ffffff","surface-container-high":"#daebf6","on-background":"#0d1d26","tertiary-fixed":"#ffdad3","primary-fixed-dim":"#90cfec","on-secondary":"#ffffff","surface-container":"#dff0fc","outline-variant":"#bfc8cd","secondary-fixed-dim":"#8ad0f1","outline":"#70787d","on-tertiary-fixed":"#3f0400","primary-container":"#0d5c75","on-primary-container":"#93d3ef","on-error-container":"#93000a","background":"#f5faff","surface-container-lowest":"#ffffff","inverse-on-surface":"#e2f3ff","on-surface":"#0d1d26","on-primary-fixed":"#001f2a","on-primary":"#ffffff","error":"#ba1a1a","error-container":"#ffdad6","surface":"#f5faff","inverse-surface":"#23323b","on-tertiary-container":"#ffb8aa","on-secondary-fixed-variant":"#004d65","on-surface-variant":"#40484c","on-tertiary":"#ffffff","surface-variant":"#d4e5f1","primary":"#004357","on-tertiary-fixed-variant":"#7b2e1f","surface-container-highest":"#d4e5f1","on-primary-fixed-variant":"#004d64","secondary-fixed":"#bee9ff","tertiary":"#6f2517","inverse-primary":"#90cfec","on-secondary-container":"#056380","on-secondary-fixed":"#001f2a","surface-tint":"#1e667f","secondary":"#0d6683","surface-bright":"#f5faff","tertiary-container":"#8d3b2b","primary-fixed":"#bde9ff","secondary-container":"#98deff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"2rem","gutter":"1.5rem","space-md":"1rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-lg":"1.5rem","space-xl":"2.5rem","space-xs":"0.25rem","margin-mobile":"1rem"},fontFamily:{"body-lg":["Inter"],"headline-md":["Inter"],"body-md":["Inter"],"headline-xl-mobile":["Inter"],"headline-xl":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"label-lg":["Inter"],"label-sm":["Inter"],"headline-sm":["Inter"]},fontSize:{"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-low z-50 flex flex-col justify-between p-space-lg"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center font-headline-sm text-headline-sm font-bold">I</div><div><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight">INTI</h1><p class="font-label-sm text-label-sm text-on-surface-variant">INTI International University</p></div></div><div class="bg-surface-container-high rounded-xl p-space-sm flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">lock_person</span><span class="font-label-sm text-label-sm text-on-surface-variant">Access limited to your account data</span></div><div class="h-space-xs"></div><nav class="flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-xl"><span class="font-label-sm text-label-sm text-outline px-space-sm uppercase tracking-wider">Student Services</span><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-sm transition-colors bg-primary-container text-on-primary-container font-semibold rounded-xl" data-path="student-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-label-lg text-label-lg">Overview</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="course-registration" href="#"><span class="material-symbols-outlined text-[20px]">menu_book</span><span class="font-label-lg text-label-lg">Course Registration</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="academic-records" href="#"><span class="material-symbols-outlined text-[20px]">school</span><span class="font-label-lg text-label-lg">Academic Records</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="tuition-and-fees" href="#"><span class="material-symbols-outlined text-[20px]">payments</span><span class="font-label-lg text-label-lg">Tuition &amp; Fees</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="hostel-services" href="#"><span class="material-symbols-outlined text-[20px]">apartment</span><span class="font-label-lg text-label-lg">Mahallah / Hostel</span></a><span class="font-label-sm text-label-sm text-outline px-space-sm mt-space-sm uppercase tracking-wider">Faculty &amp; Staff</span><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="lecturer-grading" href="#"><span class="material-symbols-outlined text-[20px]">assignment_turned_in</span><span class="font-label-lg text-label-lg">Course Assessment</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="administrative-desk" href="#"><span class="material-symbols-outlined text-[20px]">admin_panel_settings</span><span class="font-label-lg text-label-lg">Staff Desk</span></a></nav></div><div class="flex flex-col gap-space-sm"><div class="bg-surface-container rounded-xl p-space-sm flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">verified_user</span><span class="font-label-sm text-label-sm text-on-surface">Session: Sem 1 2024/25</span></div></div><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="sign-out" href="#"><span class="material-symbols-outlined text-[20px]">logout</span><span class="font-label-lg text-label-lg">Sign Out</span></a></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl z-40"><div class="h-16 w-full px-space-lg flex items-center justify-between"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm bg-surface-container-high px-space-sm py-space-xs rounded-xl"><span class="material-symbols-outlined text-secondary text-[20px]">account_balance</span><span class="font-label-md text-label-md text-on-surface">INTI Student Portal</span></div><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-xl"><span class="font-label-sm text-label-sm text-outline">Role Demo:</span><select class="bg-transparent font-label-md text-label-md text-primary focus:outline-none cursor-pointer"><option selected="">Student (Undergraduate)</option><option>Lecturer (Faculty of Computing)</option><option>University Administrator</option></select></div></div><div class="flex items-center gap-space-md"><button class="relative w-10 h-10 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error"></span></button><div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-sm py-space-xs rounded-xl"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="hidden md:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Amirul Haziq</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">2021884321</span></div></div></div></div></header><main class="relative pt-16 bg-surface min-h-[calc(100vh-3rem)] px-space-lg py-space-md"><div class="fixed top-20 right-8 z-50 flex flex-col gap-space-xs pointer-events-none" id="toast-container"></div><div class="flex flex-col w-full gap-space-lg pb-12">
+<!-- Top Global Context & Role Indicator Banner -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[28px]" id="current-user-avatar-icon">school</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="current-user-name">Muhammad Farhan bin Razak</span>
+<span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container text-primary uppercase font-bold" id="current-user-badge">STUDENT</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="current-user-sub">Matric: A22CS0142 • Faculty of Computing (INTI International University Nilai)</p>
+</div>
+</div>
+<!-- Quick Role Switcher Buttons -->
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-xl">
+<span class="font-label-sm text-label-sm text-outline px-space-xs uppercase">Simulate Role:</span>
+<button class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md transition-colors bg-primary-container text-on-primary-container font-semibold" id="btn-role-student" onclick="switchRole('student')">Student</button>
+<button class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md transition-colors text-on-surface-variant hover:bg-surface-container" id="btn-role-lecturer" onclick="switchRole('lecturer')">Lecturer</button>
+<button class="px-space-sm py-space-xs rounded-lg font-label-md text-label-md transition-colors text-on-surface-variant hover:bg-surface-container" id="btn-role-admin" onclick="switchRole('admin')">Admin Registrar</button>
+</div>
+</div>
+<!-- Role 1: STUDENT VIEW -->
+<div class="flex flex-col gap-space-lg" id="view-student">
+<!-- Semester Progress & Quick Announcement Pill -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<div class="lg:col-span-2 bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Semester Progress</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Semester 1, Sesi Akademik 2024/2025</h2>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary rounded-full font-label-md text-label-md font-semibold">Minggu 11 of 14</span>
+</div>
+<div class="mt-space-md">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mb-space-xs">
+<span class="">Kuliah &amp; Pentaksiran Berterusan</span>
+<span class="">78% Selesai</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-3 overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full transition-all duration-700" style="width: 78%;"></div>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-sm mt-space-md pt-space-sm bg-surface-container-low rounded-lg p-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-outline block">CGPA Terkini</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">3.82</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-outline block">Kredit Berdaftar</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">18 Jam Kredit</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-outline block">Kolej Kediaman</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Kolej KTDI-B04</span>
+</div>
+</div>
+</div>
+<!-- Quick Action Cards -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-outline uppercase font-semibold">Tindakan Pantas</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-xs">Aduan &amp; Khidmat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Laporkan sebarang kerosakan kemudahan kampus atau kemukakan rayuan akademik secara langsung.</p>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-md">
+<button class="w-full py-space-sm px-space-md bg-primary text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs transition-colors hover:bg-primary-container" onclick="openModal('modal-facility-report')">
+<span class="material-symbols-outlined text-[18px]">build</span> Laporkan Kerosakan Fasiliti
+          </button>
+<button class="w-full py-space-sm px-space-md bg-secondary-container text-on-secondary-container rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs transition-colors hover:bg-surface-container-high" onclick="openModal('modal-academic-enquiry')">
+<span class="material-symbols-outlined text-[18px]">help_center</span> Enkuiri Rayuan Kursus
+          </button>
+</div>
+</div>
+</div>
+<!-- Active Tickets & Submissions by Student -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col">
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Senarai Permohonan &amp; Aduan Saya</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jejak status permohonan aktif anda di bawah sistem sehenti INTI</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-outline">Tapis Status:</span>
+<select class="bg-surface-container-high font-label-md text-label-md text-on-surface px-space-sm py-space-xs rounded-lg focus:outline-none" id="student-filter-status" onchange="renderStudentRequests()">
+<option value="ALL">Semua Rekod</option>
+<option value="Dalam Tindakan">Dalam Tindakan</option>
+<option value="Menunggu Semakan">Menunggu Semakan</option>
+<option value="Selesai">Selesai</option>
+</select>
+</div>
+</div>
+<!-- Requests Table Container -->
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low font-label-md text-label-md text-outline">
+<th class="p-space-sm rounded-l-lg">ID &amp; Tarikh</th>
+<th class="p-space-sm">Kategori &amp; Lokasi</th>
+<th class="p-space-sm">Subjek / Penerangan</th>
+<th class="p-space-sm">Jabatan Bertanggungjawab</th>
+<th class="p-space-sm">Status</th>
+<th class="p-space-sm rounded-r-lg text-right">Tindakan</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm" id="student-requests-tbody">
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm font-label-md text-label-md text-primary font-semibold">
+            REQ-24-101
+            <span class="block font-label-sm text-label-sm text-outline">2025-01-10</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface block font-semibold">Fasiliti</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran (N28)</span>
+          </td>
+          <td class="p-space-sm max-w-xs">
+            <span class="font-body-sm text-body-sm text-on-surface block font-semibold truncate">Projektor Bilik Kuliah N28A Terpadam Sendiri</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Semasa sesi pembentangan projek SECV3104, projektor di BK1 padam setiap 10 minit akibat masalah kabel HDMI soket dinding.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">Pengurusan Fasiliti</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container text-secondary font-bold">Dalam Tindakan</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-101')" class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Lihat Butiran
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm font-label-md text-label-md text-primary font-semibold">
+            REQ-24-102
+            <span class="block font-label-sm text-label-sm text-outline">2025-01-08</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface block font-semibold">Akademik</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran</span>
+          </td>
+          <td class="p-space-sm max-w-xs">
+            <span class="font-body-sm text-body-sm text-on-surface block font-semibold truncate">Permohonan Pindah Seksyen SECV3104 Web Technology</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Rayuan pertukaran dari Seksyen 02 ke Seksyen 01 kerana jadual bertindih dengan kursus ko-kurikulum Pengurusan Sukan.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">Hal Ehwal Akademik</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-102')" class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Lihat Butiran
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm font-label-md text-label-md text-primary font-semibold">
+            REQ-24-103
+            <span class="block font-label-sm text-label-sm text-outline">2025-01-04</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface block font-semibold">Fasiliti</span>
+            <span class="font-label-sm text-label-sm text-outline">Kolej Tuanku Canselor (KTC)</span>
+          </td>
+          <td class="p-space-sm max-w-xs">
+            <span class="font-body-sm text-body-sm text-on-surface block font-semibold truncate">Kerosakan Pili Air Aras 2 Blok B04</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Pili air sinki asrama aras 2 bocor dan menyebabkan takungan air di koridor.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">Pengurusan Fasiliti</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-103')" class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Lihat Butiran
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm font-label-md text-label-md text-primary font-semibold">
+            REQ-24-107
+            <span class="block font-label-sm text-label-sm text-outline">2025-01-02</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface block font-semibold">IT &amp; Digital</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran (N28)</span>
+          </td>
+          <td class="p-space-sm max-w-xs">
+            <span class="font-body-sm text-body-sm text-on-surface block font-semibold truncate">Permohonan Akses Pelayan GPU Lab Kepintaran Buatan</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Keperluan latihan model Deep Learning bagi tugasan SECV3104.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">Pusat Digital &amp; IT</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-107')" class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Lihat Butiran
+            </button>
+          </td>
+        </tr>
+      </tbody>
+</table>
+</div>
+</div>
+<!-- Registered Courses Cards -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kursus Berdaftar Semester Ini</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Silibus dan pensyarah Fakulti Komputeran</p>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary font-label-sm text-label-sm rounded-full">5 Kursus • 18 Kredit</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-surface-container px-space-xs py-space-xs rounded font-bold text-primary">SECV3104</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Seksyen 02</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-space-xs leading-snug">Web Technology</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Pensyarah: Ts. Dr. Noor Hazirah binti Ahmad</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Isnin • 10:00 - 12:00 (N28A BK1)</span>
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="openCourseEnquiry('SECV3104 Web Technology', 'Ts. Dr. Noor Hazirah binti Ahmad')">Hubungi Pensyarah</button>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-surface-container px-space-xs py-space-xs rounded font-bold text-primary">SECJ2154</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Seksyen 01</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-space-xs leading-snug">Software Engineering</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Pensyarah: Prof. Madya Dr. Azman bin Hashim</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Rabu • 14:00 - 16:00 (MP1)</span>
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="openCourseEnquiry('SECJ2154 Software Engineering', 'Prof. Madya Dr. Azman bin Hashim')">Hubungi Pensyarah</button>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm bg-surface-container px-space-xs py-space-xs rounded font-bold text-primary">SECR2043</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Seksyen 03</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-space-xs leading-snug">Operating Systems</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Pensyarah: Dr. Wan Norashikin binti Mohd</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Khamis • 08:00 - 10:00 (BK3)</span>
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="openCourseEnquiry('SECR2043 Operating Systems', 'Dr. Wan Norashikin binti Mohd')">Hubungi Pensyarah</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Role 2: LECTURER VIEW -->
+<div class="hidden flex flex-col gap-space-lg" id="view-lecturer">
+<!-- Lecturer Header KPI Row -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm text-outline">Kursus Diampu</span>
+<div class="font-headline-md text-headline-md text-primary mt-space-xs font-bold">2 Subjek</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">78 Jumlah Mahasiswa</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm text-outline">Permohonan Rayuan Pelajar</span>
+<div class="font-headline-md text-headline-md text-secondary mt-space-xs font-bold" id="lecturer-pending-count">2 Menunggu</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kehadiran &amp; Pertukaran Seksyen</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm text-outline">Penyerahan Tugasan Projek</span>
+<div class="font-headline-md text-headline-md text-on-surface mt-space-xs font-bold">92%</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Web Tech Sprint 2</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm text-outline">Status Penggredan Terbuka</span>
+<div class="font-headline-md text-headline-md text-primary mt-space-xs font-bold">Aktif</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tamat: 18 Jan 2025</span>
+</div>
+</div>
+<!-- Student Enquiries specific to Lecturer's classes -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Peti Permohonan &amp; Enkuiri Akademik Pelajar</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Maklum balas kepada rayuan penambahan seksyen, kuiz pengganti, dan surat pelepasan</p>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-md text-label-md">Fakulti Komputeran</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low font-label-md text-label-md text-outline">
+<th class="p-space-sm rounded-l-lg">Pelajar</th>
+<th class="p-space-sm">Subjek / Topik</th>
+<th class="p-space-sm">Mesej Pelajar</th>
+<th class="p-space-sm">Tarikh</th>
+<th class="p-space-sm">Status</th>
+<th class="p-space-sm rounded-r-lg text-right">Tindakan</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm" id="lecturer-enquiries-tbody">
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Muhammad Farhan bin Razak</span>
+            <span class="font-label-sm text-label-sm text-outline">A22CS0142</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-primary font-bold block">Permohonan Pindah Seksyen SECV3104 Web Technology</span>
+            <span class="font-label-sm text-label-sm text-outline">Akademik</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <p class="font-body-sm text-body-sm text-on-surface line-clamp-2">Rayuan pertukaran dari Seksyen 02 ke Seksyen 01 kerana jadual bertindih dengan kursus ko-kurikulum Pengurusan Sukan.</p>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-outline">2025-01-08</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-102')" class="px-space-sm py-space-xs bg-primary text-on-primary rounded-lg font-label-sm text-label-sm hover:bg-primary-container transition-colors">
+              Beri Maklum Balas
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Siti Aisyah binti Kamaruddin</span>
+            <span class="font-label-sm text-label-sm text-outline">A22CS0091</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-primary font-bold block">Rayuan Kuiz Pengganti Web Tech (MC Hospital Sultanah Aminah)</span>
+            <span class="font-label-sm text-label-sm text-outline">Akademik</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <p class="font-body-sm text-body-sm text-on-surface line-clamp-2">Saya tidak dapat menghadiri kuiz atas sebab kemasukan wad kecemasan. Surat pelepasan doktor telah dilampirkan.</p>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-outline">2025-01-09</td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span></td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('REQ-24-104')" class="px-space-sm py-space-xs bg-primary text-on-primary rounded-lg font-label-sm text-label-sm hover:bg-primary-container transition-colors">
+              Beri Maklum Balas
+            </button>
+          </td>
+        </tr>
+      </tbody>
+</table>
+</div>
+</div>
+<!-- Class Announcement Dispatcher for Lecturer -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Hantar Pengumuman Kelas Berkelompok</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Siarkan peringatan kepada mahasiswa di portal dan emel siswa serentak.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Pilih Kursus</label>
+<select class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="lecturer-announce-course">
+<option value="SECV3104 Web Technology (Semua Seksyen)">SECV3104 Web Technology (Semua Seksyen)</option>
+<option value="SECJ2154 Software Engineering (Seksyen 01)">SECJ2154 Software Engineering (Seksyen 01)</option>
+</select>
+</div>
+<div class="md:col-span-2">
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Tajuk Pengumuman</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="lecturer-announce-title" placeholder="Cth: Pindaan Bilik Kuliah Ujian Amali Minggu 12" type="text">
+</div>
+<div class="md:col-span-3">
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Kandungan Pengumuman</label>
+<textarea class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="lecturer-announce-content" placeholder="Sila bawa komputer riba yang telah dipasang dengan Docker &amp; Node.js..." rows="3"></textarea>
+</div>
+</div>
+<div class="mt-space-md flex justify-end">
+<button class="px-space-lg py-space-sm bg-primary text-on-primary rounded-xl font-label-lg text-label-lg hover:bg-primary-container transition-colors" onclick="postLecturerAnnouncement()">
+          Siarkan ke Portal Siswa
+        </button>
+</div>
+</div>
+</div>
+<!-- Role 3: ADMIN REGISTRAR VIEW -->
+<div class="hidden flex flex-col gap-space-lg" id="view-admin">
+<!-- Admin Statistics Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Jumlah Permohonan</span>
+<span class="material-symbols-outlined text-primary text-[20px]">inbox</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface mt-space-xs font-bold" id="admin-kpi-total">7</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Merangkumi 4 jabatan</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Dalam Tindakan</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">pending_actions</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-secondary mt-space-xs font-bold" id="admin-kpi-progress">2</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">SLA Purata: 1.4 Hari</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Diselesaikan Hari Ini</span>
+<span class="material-symbols-outlined text-primary text-[20px]">task_alt</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary mt-space-xs font-bold" id="admin-kpi-resolved">3</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kadar kepuasan 98.4%</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Kerosakan Kritikal</span>
+<span class="material-symbols-outlined text-tertiary text-[20px]">warning</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-tertiary mt-space-xs font-bold" id="admin-kpi-critical">1</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fasiliti Elektrik Kolej</span>
+</div>
+</div>
+<!-- Analytics & Department Allocation Diagram -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<!-- SVG Data Distribution Chart -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Pengagihan Mengikut Jabatan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pecahan kes bulan semasa 2025</p>
+</div>
+<div class="py-space-md flex items-center justify-center">
+<svg class="w-40 h-40 transform -rotate-90" viewBox="0 0 160 160">
+<!-- Hal Ehwal Akademik: 40% (stroke-dasharray="100.5 150.8") -->
+<circle cx="80" cy="80" fill="transparent" r="50" stroke="#004357" stroke-dasharray="125.6 188.4" stroke-dashoffset="0" stroke-width="20"></circle>
+<!-- Fasiliti: 30% -->
+<circle cx="80" cy="80" fill="transparent" r="50" stroke="#0d6683" stroke-dasharray="94.2 220" stroke-dashoffset="-125.6" stroke-width="20"></circle>
+<!-- IT & Digital: 20% -->
+<circle cx="80" cy="80" fill="transparent" r="50" stroke="#90cfec" stroke-dasharray="62.8 251.2" stroke-dashoffset="-219.8" stroke-width="20"></circle>
+<!-- Bendahari: 10% -->
+<circle cx="80" cy="80" fill="transparent" r="50" stroke="#8d3b2b" stroke-dasharray="31.4 282.6" stroke-dashoffset="-282.6" stroke-width="20"></circle>
+</svg>
+</div>
+<div class="grid grid-cols-2 gap-space-xs font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary inline-block"></span>
+<span class="text-on-surface">Akademik (40%)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary inline-block"></span>
+<span class="text-on-surface">Fasiliti (30%)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary-fixed-dim inline-block"></span>
+<span class="text-on-surface">IT Digital (20%)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-tertiary-container inline-block"></span>
+<span class="text-on-surface">Bendahari (10%)</span>
+</div>
+</div>
+</div>
+<!-- Live Department Queue Status -->
+<div class="lg:col-span-2 bg-surface-container-lowest p-space-lg rounded-xl flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Status Pengendalian Meja Bantuan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Beban tugas semasa pegawai mengikut unit operasi</p>
+</div>
+<button class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-md text-label-md flex items-center gap-space-xs hover:bg-surface-container-high transition-colors" onclick="exportReportCSV()">
+<span class="material-symbols-outlined text-[16px]">download</span> Eksport CSV
+          </button>
+</div>
+<div class="space-y-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Bahagian Pengurusan Fasiliti &amp; Harta (BPFH)</span>
+<span class="font-label-sm text-label-sm text-outline">Pegawai Bertugas: En. Razak Othman • 6 Kes Aktif</span>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-secondary rounded-full font-label-sm text-label-sm font-semibold">Tinggi</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Hal Ehwal Akademik &amp; Peperiksaan</span>
+<span class="font-label-sm text-label-sm text-outline">Pegawai Bertugas: Pn. Siti Sarah • 4 Kes Aktif</span>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary rounded-full font-label-sm text-label-sm font-semibold">Sederhana</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Pusat Digital &amp; Prasarana Rangkaian</span>
+<span class="font-label-sm text-label-sm text-outline">Pegawai Bertugas: Ts. Helmi • 2 Kes Aktif</span>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary rounded-full font-label-sm text-label-sm font-semibold">Normal</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Unit Biasiswa &amp; Kewangan Pelajar (Bendahari)</span>
+<span class="font-label-sm text-label-sm text-outline">Pegawai Bertugas: Cik Faridah • 2 Kes Aktif</span>
+</div>
+<span class="px-space-sm py-space-xs bg-surface-container text-primary rounded-full font-label-sm text-label-sm font-semibold">Normal</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Master Central Ticket Manager -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Peta Lokasi Kemudahan Kampus Induk INTI University</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selia, agihkan pegawai, atau ubah status tiket dalam sistem berpusat</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<input class="bg-surface-container-low px-space-md py-space-xs rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="admin-search-input" oninput="renderAdminRequests()" placeholder="Cari ID, Nama, atau Lokasi..." type="text">
+<select class="bg-surface-container-low px-space-sm py-space-xs rounded-xl font-label-md text-label-md text-on-surface focus:outline-none" id="admin-filter-dept" onchange="renderAdminRequests()">
+<option value="ALL">Semua Jabatan</option>
+<option value="Hal Ehwal Akademik">Hal Ehwal Akademik</option>
+<option value="Pengurusan Fasiliti">Pengurusan Fasiliti</option>
+<option value="Pusat Digital &amp; IT">Pusat Digital &amp; IT</option>
+<option value="Bendahari">Bendahari</option>
+</select>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low font-label-md text-label-md text-outline">
+<th class="p-space-sm rounded-l-lg">ID &amp; Pemohon</th>
+<th class="p-space-sm">Kategori &amp; Lokasi</th>
+<th class="p-space-sm">Subjek &amp; Butiran</th>
+<th class="p-space-sm">Jabatan &amp; SLA</th>
+<th class="p-space-sm">Status Semasa</th>
+<th class="p-space-sm rounded-r-lg text-right">Tindakan Admin</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm" id="admin-requests-tbody">
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-101</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Muhammad Farhan bin Razak</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Fasiliti</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran (N28)</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Projektor Bilik Kuliah N28A Terpadam Sendiri</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Semasa sesi pembentangan projek SECV3104, projektor di BK1 padam setiap 10 minit akibat masalah kabel HDMI soket dinding.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Pengurusan Fasiliti
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Sederhana</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container text-secondary font-bold">Dalam Tindakan</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-101')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-102</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Muhammad Farhan bin Razak</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Akademik</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Permohonan Pindah Seksyen SECV3104 Web Technology</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Rayuan pertukaran dari Seksyen 02 ke Seksyen 01 kerana jadual bertindih dengan kursus ko-kurikulum Pengurusan Sukan.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Hal Ehwal Akademik
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Biasa</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-102')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-103</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Muhammad Farhan bin Razak</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Fasiliti</span>
+            <span class="font-label-sm text-label-sm text-outline">Kolej Tuanku Canselor (KTC)</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Kerosakan Pili Air Aras 2 Blok B04</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Pili air sinki asrama aras 2 bocor dan menyebabkan takungan air di koridor.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Pengurusan Fasiliti
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Kecemasan</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-103')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-104</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Siti Aisyah binti Kamaruddin</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Akademik</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Rayuan Kuiz Pengganti Web Tech (MC Hospital Sultanah Aminah)</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Saya tidak dapat menghadiri kuiz atas sebab kemasukan wad kecemasan. Surat pelepasan doktor telah dilampirkan.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Hal Ehwal Akademik
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Sederhana</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-104')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-105</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Danish Irfan bin Suhaimi</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">IT &amp; Digital</span>
+            <span class="font-label-sm text-label-sm text-outline">Dewan Sultan Iskandar (DSI)</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Akaun WiFi Eduroam Gagal Disahkan di Dewan DSI</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Sijil keselamatan SSL WiFi tidak boleh diperbaharui pada peranti Android 14 semasa aktiviti raptai konsert.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Pusat Digital &amp; IT
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Biasa</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container text-secondary font-bold">Dalam Tindakan</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-105')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-106</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Nurul Huda binti Zainal</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">Bendahari</span>
+            <span class="font-label-sm text-label-sm text-outline">Bangunan Canseleri</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Penyelarasan Pengurangan Yuran Resit Tajaan JPA</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Pihak JPA telah melunaskan invois sem 1 tetapi portal kewangan siswa masih menunjukkan status baki tertunggak.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Bendahari
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Biasa</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-106')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">REQ-24-107</span>
+            <span class="font-label-sm text-label-sm text-on-surface">Muhammad Farhan bin Razak</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">IT &amp; Digital</span>
+            <span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran (N28)</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">Permohonan Akses Pelayan GPU Lab Kepintaran Buatan</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Keperluan latihan model Deep Learning bagi tugasan SECV3104.</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            Pusat Digital &amp; IT
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: Biasa</span>
+          </td>
+          <td class="p-space-sm"><span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span></td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('REQ-24-107')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      </tbody>
+</table>
+</div>
+</div>
+<!-- System Architecture & Role Matrix Accordion -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<details class="cursor-pointer group">
+<summary class="font-headline-sm text-headline-sm text-on-surface flex items-center justify-between list-none">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary">account_tree</span>
+<span class="">Senibina Sistem &amp; Matriks Kebenaran Peranan (Prototype Architecture)</span>
+</div>
+<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-space-md pt-space-md grid grid-cols-1 md:grid-cols-2 gap-space-lg font-body-sm text-body-sm text-on-surface-variant">
+<div class="bg-surface-container-low p-space-md rounded-xl">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold mb-space-xs">Matriks Capaian Data (Access Control Matrix)</h5>
+<ul class="space-y-space-xs font-label-sm text-label-sm">
+<li class="">• <strong class="text-primary">Pelajar:</strong> Boleh mencipta tiket aduan, menghantar rayuan enkuiri pensyarah, membaca arkib peribadi sahaja.</li>
+<li class="">• <strong class="text-secondary">Pensyarah:</strong> Capaian kepada enkuiri mahasiswa kursus kendalian, membalas permohonan, menerbitkan pengumuman kuliah.</li>
+<li class="">• <strong class="text-on-surface">Pentadbir Pendaftar:</strong> Kawalan penuh terhadap semua status tiket, penugasan semula jabatan pengurus, audit log, dan eksport data rasmi universiti.</li>
+</ul>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold mb-space-xs">Integrasi Modul Berpusat</h5>
+<p class="font-label-sm text-label-sm">Model data mematuhi standard interoperabiliti Sistem Maklumat Pengurusan Universiti (AIMS/INTI-SMP). Semua penyerahan tiket segera mengemas kini log audit, pengira KPI dinamik, dan pengurusan masa nyata.</p>
+</div>
+</div>
+</details>
+</div>
+</div>
+<!-- Interactive Campus Map & Location Showcase (Global Widget) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg">
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Peta Lokasi Kemudahan Kampus Induk UTSM</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Klik pada mana-mana blok untuk melihat kemudahan semasa atau mengisi aduan terus mengikut zon</p>
+</div>
+<span class="px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">GPS Zon Aktif</span>
+</div>
+<!-- Visual Interactive Campus Blueprint Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-space-sm">
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Fakulti Komputeran (N28)')">
+<span class="material-symbols-outlined text-primary text-[24px]">terminal</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">Blok N28</div>
+<span class="font-label-sm text-label-sm text-outline">Fakulti Komputeran</span>
+</div>
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Perpustakaan Sultanah Zanariah (PSZ)')">
+<span class="material-symbols-outlined text-primary text-[24px]">local_library</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">PSZ Sentral</div>
+<span class="font-label-sm text-label-sm text-outline">Perpustakaan Induk</span>
+</div>
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Dewan Sultan Iskandar (DSI)')">
+<span class="material-symbols-outlined text-primary text-[24px]">theater_comedy</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">DSI Hall</div>
+<span class="font-label-sm text-label-sm text-outline">Pusat Konvokesyen</span>
+</div>
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Kolej Tuanku Canselor (KTC)')">
+<span class="material-symbols-outlined text-primary text-[24px]">apartment</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">Kolej KTC</div>
+<span class="font-label-sm text-label-sm text-outline">Kediaman Siswa</span>
+</div>
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Kompleks Sukan UTSM')">
+<span class="material-symbols-outlined text-primary text-[24px]">sports_soccer</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">Kompleks Sukan</div>
+<span class="font-label-sm text-label-sm text-outline">Stadium &amp; Kolam</span>
+</div>
+<div class="campus-zone-card cursor-pointer p-space-sm bg-surface-container-low hover:bg-surface-container rounded-xl transition-all text-center" onclick="selectMapZone('Pusat Kesihatan Universiti (PKU)')">
+<span class="material-symbols-outlined text-primary text-[24px]">medical_services</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-space-xs">Klinik PKU</div>
+<span class="font-label-sm text-label-sm text-outline">Kesihatan Siswa</span>
+</div>
+</div>
+</div>
+<!-- MODAL: Facility Problem Report -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 hidden flex items-center justify-center p-space-md" id="modal-facility-report">
+<div class="bg-surface-container-lowest rounded-xl max-w-xl w-full p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">build</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Borang Aduan Fasiliti &amp; Kerosakan</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="closeModal('modal-facility-report')">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<form class="space-y-space-sm" id="form-facility-report" onsubmit="handleFacilitySubmit(event)">
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Lokasi Kampus / Bangunan</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="fac-location" placeholder="Cth: Blok N28A, Makmal Komputer 3" required="" type="text">
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Kategori Kerosakan</label>
+<select class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="fac-category">
+<option value="Elektrik &amp; Penghawa Dingin">Elektrik &amp; Penghawa Dingin</option>
+<option value="Internet Wi-Fi Kampus">Internet Wi-Fi Kampus</option>
+<option value="Perpaipan &amp; Sanitasi">Perpaipan &amp; Sanitasi</option>
+<option value="Perabot &amp; Kemudahan Kuliah">Perabot &amp; Kemudahan Kuliah</option>
+</select>
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Tahap Keutamaan</label>
+<select class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="fac-priority">
+<option value="Biasa">Biasa (Standard SLA 48j)</option>
+<option value="Sederhana">Sederhana (24j)</option>
+<option value="Kecemasan">Kecemasan (Segera)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Penerangan Kerosakan</label>
+<textarea class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="fac-description" placeholder="Sila perihalkan isu kerosakan dengan jelas untuk rujukan kontraktor penyelenggara..." required="" rows="3"></textarea>
+</div>
+<div class="flex justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-space-sm rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container" onclick="closeModal('modal-facility-report')" type="button">Batal</button>
+<button class="px-space-lg py-space-sm bg-primary text-on-primary rounded-xl font-label-lg text-label-lg hover:bg-primary-container" type="submit">Hantar Laporan Aduan</button>
+</div>
+</form>
+</div>
+</div>
+<!-- MODAL: Academic Enquiry / Appeal -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 hidden flex items-center justify-center p-space-md" id="modal-academic-enquiry">
+<div class="bg-surface-container-lowest rounded-xl max-w-xl w-full p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">school</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Enkuiri &amp; Rayuan Akademik</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="closeModal('modal-academic-enquiry')">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<form class="space-y-space-sm" id="form-academic-enquiry" onsubmit="handleAcademicSubmit(event)">
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Kursus Berkaitan</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="acad-course" placeholder="Cth: SECV3104 Web Technology" required="" type="text">
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Nama Pensyarah / Penasihat Akademik</label>
+<input class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="acad-lecturer" placeholder="Cth: Ts. Dr. Noor Hazirah binti Ahmad" required="" type="text">
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Jenis Permohonan</label>
+<select class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="acad-type">
+<option value="Permohonan Pindah Seksyen Kuliah">Permohonan Pindah Seksyen Kuliah</option>
+<option value="Rayuan Kuiz / Ujian Pengganti (Sebab Kesihatan)">Rayuan Kuiz / Ujian Pengganti (Sebab Kesihatan)</option>
+<option value="Semakan Semula Markah Pentaksiran">Semakan Semula Markah Pentaksiran</option>
+<option value="Pengesyoran Latihan Industri">Pengesyoran Latihan Industri</option>
+</select>
+</div>
+<div>
+<label class="font-label-md text-label-md text-on-surface-variant block mb-space-xs">Justifikasi &amp; Butiran Rayuan</label>
+<textarea class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none" id="acad-details" placeholder="Sertakan nombor seksyen yang diingini atau alasan munasabah..." required="" rows="3"></textarea>
+</div>
+<div class="flex justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-space-sm rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container" onclick="closeModal('modal-academic-enquiry')" type="button">Batal</button>
+<button class="px-space-lg py-space-sm bg-primary text-on-primary rounded-xl font-label-lg text-label-lg hover:bg-primary-container" type="submit">Hantar ke Pensyarah</button>
+</div>
+</form>
+</div>
+</div>
+<!-- MODAL: Ticket Detail & Status Update Drawer (Shared between Lecturer & Admin) -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 hidden flex items-center justify-center p-space-md" id="modal-ticket-detail">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase" id="modal-ticket-id">UTSM-REQ-001</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="modal-ticket-title">Butiran Permohonan</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="closeModal('modal-ticket-detail')">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="space-y-space-sm font-body-sm text-body-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Pemohon / Mahasiswa</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="modal-ticket-author">Muhammad Farhan bin Razak (A22CS0142)</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Penerangan / Laporan Penuh</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-space-xs" id="modal-ticket-desc">-</p>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Lokasi / Jabatan</span>
+<span class="font-label-md text-label-md text-on-surface" id="modal-ticket-location">-</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-outline block">Status Semasa</span>
+<span class="font-label-md text-label-md font-semibold text-primary" id="modal-ticket-status">-</span>
+</div>
+</div>
+<!-- Action Area for Admin / Lecturer -->
+<div class="pt-space-sm space-y-space-xs" id="modal-action-zone">
+<label class="font-label-md text-label-md text-on-surface font-semibold block">Kemaskini Status Kes</label>
+<div class="flex items-center gap-space-xs">
+<select class="flex-1 bg-surface-container px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface focus:outline-none" id="modal-update-status-select">
+<option value="Dalam Tindakan">Tandakan: Dalam Tindakan</option>
+<option value="Selesai">Tandakan: Selesai &amp; Ditutup</option>
+<option value="Ditolak">Tandakan: Tidak Diluluskan</option>
+</select>
+<button class="px-space-md py-space-sm bg-primary text-on-primary rounded-xl font-label-md text-label-md hover:bg-primary-container transition-colors" onclick="commitTicketStatusChange()">
+              Simpan
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic In-Memory Shared Reactive State
+  const AppState = {
+    currentRole: 'student', // 'student', 'lecturer', 'admin'
+    users: {
+      student: {
+        name: 'Muhammad Farhan bin Razak',
+        matric: 'A22CS0142',
+        roleLabel: 'STUDENT',
+        faculty: 'Fakulti Komputeran (UTSM Skudai)',
+        avatarIcon: 'school'
+      },
+      lecturer: {
+        name: 'Ts. Dr. Noor Hazirah binti Ahmad',
+        matric: 'STF-CS-4412',
+        roleLabel: 'LECTURER',
+        faculty: 'Jabatan Sains Komputer, Fakulti Komputeran',
+        avatarIcon: 'person_pin'
+      },
+      admin: {
+        name: 'Puan Zaiton binti Sulaiman',
+        matric: 'ADM-REG-1090',
+        roleLabel: 'ADMIN REGISTRAR',
+        faculty: 'Jabatan Pendaftar & Khidmat Digital UTSM',
+        avatarIcon: 'admin_panel_settings'
+      }
+    },
+    requests: [
+      {
+        id: 'REQ-24-101',
+        author: 'Muhammad Farhan bin Razak',
+        authorId: 'A22CS0142',
+        category: 'Fasiliti',
+        subject: 'Projektor Bilik Kuliah N28A Terpadam Sendiri',
+        location: 'Fakulti Komputeran (N28)',
+        department: 'Pengurusan Fasiliti',
+        date: '2025-01-10',
+        status: 'Dalam Tindakan',
+        priority: 'Sederhana',
+        lecturerTarget: null,
+        description: 'Semasa sesi pembentangan projek SECV3104, projektor di BK1 padam setiap 10 minit akibat masalah kabel HDMI soket dinding.'
+      },
+      {
+        id: 'REQ-24-102',
+        author: 'Muhammad Farhan bin Razak',
+        authorId: 'A22CS0142',
+        category: 'Akademik',
+        subject: 'Permohonan Pindah Seksyen SECV3104 Web Technology',
+        location: 'Fakulti Komputeran',
+        department: 'Hal Ehwal Akademik',
+        date: '2025-01-08',
+        status: 'Menunggu Semakan',
+        priority: 'Biasa',
+        lecturerTarget: 'Ts. Dr. Noor Hazirah binti Ahmad',
+        description: 'Rayuan pertukaran dari Seksyen 02 ke Seksyen 01 kerana jadual bertindih dengan kursus ko-kurikulum Pengurusan Sukan.'
+      },
+      {
+        id: 'REQ-24-103',
+        author: 'Muhammad Farhan bin Razak',
+        authorId: 'A22CS0142',
+        category: 'Fasiliti',
+        subject: 'Kerosakan Pili Air Aras 2 Blok B04',
+        location: 'Kolej Tuanku Canselor (KTC)',
+        department: 'Pengurusan Fasiliti',
+        date: '2025-01-04',
+        status: 'Selesai',
+        priority: 'Kecemasan',
+        lecturerTarget: null,
+        description: 'Pili air sinki asrama aras 2 bocor dan menyebabkan takungan air di koridor.'
+      },
+      {
+        id: 'REQ-24-104',
+        author: 'Siti Aisyah binti Kamaruddin',
+        authorId: 'A22CS0091',
+        category: 'Akademik',
+        subject: 'Rayuan Kuiz Pengganti Web Tech (MC Hospital Sultanah Aminah)',
+        location: 'Fakulti Komputeran',
+        department: 'Hal Ehwal Akademik',
+        date: '2025-01-09',
+        status: 'Menunggu Semakan',
+        priority: 'Sederhana',
+        lecturerTarget: 'Ts. Dr. Noor Hazirah binti Ahmad',
+        description: 'Saya tidak dapat menghadiri kuiz atas sebab kemasukan wad kecemasan. Surat pelepasan doktor telah dilampirkan.'
+      },
+      {
+        id: 'REQ-24-105',
+        author: 'Danish Irfan bin Suhaimi',
+        authorId: 'A21BE0032',
+        category: 'IT & Digital',
+        subject: 'Akaun WiFi Eduroam Gagal Disahkan di Dewan DSI',
+        location: 'Dewan Sultan Iskandar (DSI)',
+        department: 'Pusat Digital & IT',
+        date: '2025-01-11',
+        status: 'Dalam Tindakan',
+        priority: 'Biasa',
+        lecturerTarget: null,
+        description: 'Sijil keselamatan SSL WiFi tidak boleh diperbaharui pada peranti Android 14 semasa aktiviti raptai konsert.'
+      },
+      {
+        id: 'REQ-24-106',
+        author: 'Nurul Huda binti Zainal',
+        authorId: 'A22CS0401',
+        category: 'Bendahari',
+        subject: 'Penyelarasan Pengurangan Yuran Resit Tajaan JPA',
+        location: 'Bangunan Canseleri',
+        department: 'Bendahari',
+        date: '2025-01-07',
+        status: 'Selesai',
+        priority: 'Biasa',
+        lecturerTarget: null,
+        description: 'Pihak JPA telah melunaskan invois sem 1 tetapi portal kewangan siswa masih menunjukkan status baki tertunggak.'
+      },
+      {
+        id: 'REQ-24-107',
+        author: 'Muhammad Farhan bin Razak',
+        authorId: 'A22CS0142',
+        category: 'IT & Digital',
+        subject: 'Permohonan Akses Pelayan GPU Lab Kepintaran Buatan',
+        location: 'Fakulti Komputeran (N28)',
+        department: 'Pusat Digital & IT',
+        date: '2025-01-02',
+        status: 'Selesai',
+        priority: 'Biasa',
+        lecturerTarget: null,
+        description: 'Keperluan latihan model Deep Learning bagi tugasan SECV3104.'
+      }
+    ],
+    selectedTicketId: null
+  };
+
+  // Toast Notification Dispatcher
+  function showToast(message, type = 'success') {
+    const container = document.getElementById('toast-container');
+    if (!container) return;
+
+    const toast = document.createElement('div');
+    toast.className = `p-space-sm px-space-md rounded-xl font-label-md text-label-md text-on-primary flex items-center gap-space-xs transition-all transform duration-300 pointer-events-auto ${
+      type === 'error' ? 'bg-error' : 'bg-primary'
+    }`;
+    toast.innerHTML = `
+      <span class="material-symbols-outlined text-[18px]">${type === 'error' ? 'error' : 'check_circle'}</span>
+      <span>${message}</span>
+    `;
+    container.appendChild(toast);
+
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateY(-8px)';
+      setTimeout(() => toast.remove(), 300);
+    }, 3200);
+  }
+
+  // Switch Active Persona/Role
+  function switchRole(roleKey) {
+    AppState.currentRole = roleKey;
+    const user = AppState.users[roleKey];
+
+    // Update Header Bar UI
+    document.getElementById('current-user-name').innerText = user.name;
+    document.getElementById('current-user-badge').innerText = user.roleLabel;
+    document.getElementById('current-user-sub').innerText = `${user.matric} \u2022 ${user.faculty}`;
+    document.getElementById('current-user-avatar-icon').innerText = user.avatarIcon;
+
+    // Toggle Role Buttons Highlighting
+    ['student', 'lecturer', 'admin'].forEach(r => {
+      const btn = document.getElementById(`btn-role-${r}`);
+      if (r === roleKey) {
+        btn.className = 'px-space-sm py-space-xs rounded-lg font-label-md text-label-md transition-colors bg-primary-container text-on-primary-container font-semibold';
+      } else {
+        btn.className = 'px-space-sm py-space-xs rounded-lg font-label-md text-label-md transition-colors text-on-surface-variant hover:bg-surface-container';
+      }
+    });
+
+    // Toggle View Screens
+    document.getElementById('view-student').classList.toggle('hidden', roleKey !== 'student');
+    document.getElementById('view-lecturer').classList.toggle('hidden', roleKey !== 'lecturer');
+    document.getElementById('view-admin').classList.toggle('hidden', roleKey !== 'admin');
+
+    // Re-render Data for current views
+    if (roleKey === 'student') renderStudentRequests();
+    if (roleKey === 'lecturer') renderLecturerEnquiries();
+    if (roleKey === 'admin') renderAdminRequests();
+
+    showToast(`Berjaya bertukar mod peranan: ${user.roleLabel}`);
+  }
+
+  // Render Student Requests Table
+  function renderStudentRequests() {
+    const tbody = document.getElementById('student-requests-tbody');
+    const filter = document.getElementById('student-filter-status').value;
+    
+    // Filter student requests (authorFarhan or student created)
+    let list = AppState.requests.filter(r => r.authorId === 'A22CS0142');
+    if (filter !== 'ALL') {
+      list = list.filter(r => r.status === filter);
+    }
+
+    if (list.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="6" class="p-space-lg text-center text-outline">Tiada rekod permohonan ditemui.</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = list.map(req => {
+      const statusBadge = getStatusBadge(req.status);
+      return `
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm font-label-md text-label-md text-primary font-semibold">
+            ${req.id}
+            <span class="block font-label-sm text-label-sm text-outline">${req.date}</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface block font-semibold">${req.category}</span>
+            <span class="font-label-sm text-label-sm text-outline">${req.location}</span>
+          </td>
+          <td class="p-space-sm max-w-xs">
+            <span class="font-body-sm text-body-sm text-on-surface block font-semibold truncate">${req.subject}</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">${req.description}</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">${req.department}</td>
+          <td class="p-space-sm">${statusBadge}</td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('${req.id}')" class="px-space-sm py-space-xs rounded-lg bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Lihat Butiran
+            </button>
+          </td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Render Lecturer Enquiries Table
+  function renderLecturerEnquiries() {
+    const tbody = document.getElementById('lecturer-enquiries-tbody');
+    // Enquiries addressed to Ts. Dr. Noor Hazirah
+    const list = AppState.requests.filter(r => r.lecturerTarget && r.lecturerTarget.includes('Noor Hazirah'));
+    
+    const pendingCount = list.filter(r => r.status !== 'Selesai').length;
+    document.getElementById('lecturer-pending-count').innerText = `${pendingCount} Menunggu`;
+
+    if (list.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="6" class="p-space-lg text-center text-outline">Tiada enkuiri pelajar menunggu semakan.</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = list.map(req => {
+      const statusBadge = getStatusBadge(req.status);
+      return `
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">${req.author}</span>
+            <span class="font-label-sm text-label-sm text-outline">${req.authorId}</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-primary font-bold block">${req.subject}</span>
+            <span class="font-label-sm text-label-sm text-outline">${req.category}</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <p class="font-body-sm text-body-sm text-on-surface line-clamp-2">${req.description}</p>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-outline">${req.date}</td>
+          <td class="p-space-sm">${statusBadge}</td>
+          <td class="p-space-sm text-right">
+            <button onclick="openTicketDetailModal('${req.id}')" class="px-space-sm py-space-xs bg-primary text-on-primary rounded-lg font-label-sm text-label-sm hover:bg-primary-container transition-colors">
+              Beri Maklum Balas
+            </button>
+          </td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Render Central Admin Requests Table & Recalculate KPIs
+  function renderAdminRequests() {
+    const tbody = document.getElementById('admin-requests-tbody');
+    const searchVal = document.getElementById('admin-search-input').value.toLowerCase();
+    const deptFilter = document.getElementById('admin-filter-dept').value;
+
+    let list = AppState.requests;
+    if (deptFilter !== 'ALL') {
+      list = list.filter(r => r.department === deptFilter);
+    }
+    if (searchVal.trim() !== '') {
+      list = list.filter(r => 
+        r.id.toLowerCase().includes(searchVal) ||
+        r.author.toLowerCase().includes(searchVal) ||
+        r.location.toLowerCase().includes(searchVal) ||
+        r.subject.toLowerCase().includes(searchVal)
+      );
+    }
+
+    // Refresh KPI Numbers
+    document.getElementById('admin-kpi-total').innerText = AppState.requests.length;
+    document.getElementById('admin-kpi-progress').innerText = AppState.requests.filter(r => r.status === 'Dalam Tindakan').length;
+    document.getElementById('admin-kpi-resolved').innerText = AppState.requests.filter(r => r.status === 'Selesai').length;
+    document.getElementById('admin-kpi-critical').innerText = AppState.requests.filter(r => r.priority === 'Kecemasan').length;
+
+    tbody.innerHTML = list.map(req => {
+      const statusBadge = getStatusBadge(req.status);
+      return `
+        <tr class="hover:bg-surface-container-low transition-colors">
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md font-bold text-primary block">${req.id}</span>
+            <span class="font-label-sm text-label-sm text-on-surface">${req.author}</span>
+          </td>
+          <td class="p-space-sm">
+            <span class="font-label-md text-label-md text-on-surface font-semibold block">${req.category}</span>
+            <span class="font-label-sm text-label-sm text-outline">${req.location}</span>
+          </td>
+          <td class="p-space-sm max-w-sm">
+            <span class="font-body-sm text-body-sm text-on-surface font-semibold block truncate">${req.subject}</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">${req.description}</span>
+          </td>
+          <td class="p-space-sm font-label-sm text-label-sm text-on-surface">
+            ${req.department}
+            <span class="block font-label-sm text-label-sm text-secondary font-bold">Keutamaan: ${req.priority}</span>
+          </td>
+          <td class="p-space-sm">${statusBadge}</td>
+          <td class="p-space-sm text-right space-x-space-xs">
+            <button onclick="openTicketDetailModal('${req.id}')" class="px-space-sm py-space-xs bg-surface-container text-primary rounded-lg font-label-sm text-label-sm hover:bg-surface-container-high transition-colors">
+              Urus Kes
+            </button>
+          </td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Returns flat status badge without heavy borders
+  function getStatusBadge(status) {
+    if (status === 'Selesai') {
+      return `<span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-primary font-bold">Selesai</span>`;
+    } else if (status === 'Dalam Tindakan') {
+      return `<span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container text-secondary font-bold">Dalam Tindakan</span>`;
+    } else if (status === 'Menunggu Semakan') {
+      return `<span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant font-bold">Menunggu</span>`;
+    } else {
+      return `<span class="px-space-sm py-space-xs rounded-full font-label-sm text-label-sm bg-surface-container-high text-tertiary font-bold">${status}</span>`;
+    }
+  }
+
+  // Modal Control
+  function openModal(id) {
+    document.getElementById(id).classList.remove('hidden');
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).classList.add('hidden');
+  }
+
+  // Campus Zone Quick Selection
+  function selectMapZone(zoneName) {
+    document.getElementById('fac-location').value = zoneName;
+    openModal('modal-facility-report');
+    showToast(`Zon Kampus dipilih: ${zoneName}`);
+  }
+
+  // Course Enquiry pre-filling
+  function openCourseEnquiry(courseName, lecturerName) {
+    document.getElementById('acad-course').value = courseName;
+    document.getElementById('acad-lecturer').value = lecturerName;
+    openModal('modal-academic-enquiry');
+  }
+
+  // Submit Facility Issue
+  function handleFacilitySubmit(e) {
+    e.preventDefault();
+    const loc = document.getElementById('fac-location').value;
+    const cat = document.getElementById('fac-category').value;
+    const priority = document.getElementById('fac-priority').value;
+    const desc = document.getElementById('fac-description').value;
+
+    const newTicket = {
+      id: `REQ-24-${Math.floor(108 + Math.random() * 800)}`,
+      author: AppState.users.student.name,
+      authorId: AppState.users.student.matric,
+      category: 'Fasiliti',
+      subject: `Aduan Fasiliti: ${cat}`,
+      location: loc,
+      department: 'Pengurusan Fasiliti',
+      date: new Date().toISOString().split('T')[0],
+      status: 'Menunggu Semakan',
+      priority: priority,
+      lecturerTarget: null,
+      description: desc
+    };
+
+    AppState.requests.unshift(newTicket);
+    closeModal('modal-facility-report');
+    e.target.reset();
+
+    renderStudentRequests();
+    renderAdminRequests();
+    showToast('Laporan kerosakan berjaya dihantar ke Meja Bantuan Fasiliti!');
+  }
+
+  // Submit Academic Enquiry
+  function handleAcademicSubmit(e) {
+    e.preventDefault();
+    const course = document.getElementById('acad-course').value;
+    const lecturer = document.getElementById('acad-lecturer').value;
+    const type = document.getElementById('acad-type').value;
+    const details = document.getElementById('acad-details').value;
+
+    const newTicket = {
+      id: `REQ-24-${Math.floor(108 + Math.random() * 800)}`,
+      author: AppState.users.student.name,
+      authorId: AppState.users.student.matric,
+      category: 'Akademik',
+      subject: `${type} (${course})`,
+      location: 'Fakulti Komputeran',
+      department: 'Hal Ehwal Akademik',
+      date: new Date().toISOString().split('T')[0],
+      status: 'Menunggu Semakan',
+      priority: 'Biasa',
+      lecturerTarget: lecturer,
+      description: details
+    };
+
+    AppState.requests.unshift(newTicket);
+    closeModal('modal-academic-enquiry');
+    e.target.reset();
+
+    renderStudentRequests();
+    renderLecturerEnquiries();
+    renderAdminRequests();
+    showToast('Enkuiri berjaya dikemukakan terus kepada pensyarah kursus!');
+  }
+
+  // Open Ticket Detail Drawer / Modal
+  function openTicketDetailModal(ticketId) {
+    const ticket = AppState.requests.find(t => t.id === ticketId);
+    if (!ticket) return;
+
+    AppState.selectedTicketId = ticketId;
+    document.getElementById('modal-ticket-id').innerText = ticket.id;
+    document.getElementById('modal-ticket-title').innerText = ticket.subject;
+    document.getElementById('modal-ticket-author').innerText = `${ticket.author} (${ticket.authorId})`;
+    document.getElementById('modal-ticket-desc').innerText = ticket.description;
+    document.getElementById('modal-ticket-location').innerText = `${ticket.location} \u2022 ${ticket.department}`;
+    document.getElementById('modal-ticket-status').innerText = ticket.status;
+
+    // Set select value
+    const select = document.getElementById('modal-update-status-select');
+    select.value = ticket.status === 'Selesai' ? 'Selesai' : 'Dalam Tindakan';
+
+    openModal('modal-ticket-detail');
+  }
+
+  // Commit Status Change
+  function commitTicketStatusChange() {
+    if (!AppState.selectedTicketId) return;
+    const ticket = AppState.requests.find(t => t.id === AppState.selectedTicketId);
+    if (!ticket) return;
+
+    const newStatus = document.getElementById('modal-update-status-select').value;
+    ticket.status = newStatus;
+
+    closeModal('modal-ticket-detail');
+    renderStudentRequests();
+    renderLecturerEnquiries();
+    renderAdminRequests();
+    showToast(`Status permohonan ${ticket.id} dikemaskini kepada: ${newStatus}`);
+  }
+
+  // Lecturer Class Announcement Handler
+  function postLecturerAnnouncement() {
+    const course = document.getElementById('lecturer-announce-course').value;
+    const title = document.getElementById('lecturer-announce-title').value;
+    const content = document.getElementById('lecturer-announce-content').value;
+
+    if (!title || !content) {
+      showToast('Sila isikan tajuk dan kandungan pengumuman.', 'error');
+      return;
+    }
+
+    document.getElementById('lecturer-announce-title').value = '';
+    document.getElementById('lecturer-announce-content').value = '';
+    showToast(`Pengumuman rasmi disiarkan kepada semua mahasiswa bagi ${course}!`);
+  }
+
+  // Export CSV Report Preview
+  function exportReportCSV() {
+    const csvContent = "data:text/csv;charset=utf-8," 
+      + ["ID,Pemohon,Kategori,Subjek,Jabatan,Tarikh,Status"].join(",") + "\n"
+      + AppState.requests.map(r => `"${r.id}","${r.author}","${r.category}","${r.subject}","${r.department}","${r.date}","${r.status}"`).join("\n");
+
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", `Laporan_Perkhidmatan_UTSM_${new Date().toISOString().split('T')[0]}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    showToast('Laporan CSV berjaya dimuat turun!');
+  }
+
+  // Initial Load Trigger
+  window.addEventListener('DOMContentLoaded', () => {
+    renderStudentRequests();
+    renderLecturerEnquiries();
+    renderAdminRequests();
+  });
+</script></main><footer class="w-full bg-surface-container-low h-12 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm"><span class="w-2 h-2 rounded-full bg-primary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">INTI Campus Cloud Connected • Latency 24ms</span></div><span class="font-label-sm text-label-sm text-outline">© 2025 INTI International University</span></footer></div>
+
+</body></html>
